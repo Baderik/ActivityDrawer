@@ -182,7 +182,7 @@ class Drawer:
 
 
 if __name__ == '__main__':
-    d = Path(r"D:\Projects\surface")
+    d = Path(r"..\surface")
     g = Drawer(d, remote_name=r"https://github.com/Baderik/ActivitySurface")
     g.reset_surface()
     f = Path(r"templates/dnk.txt")
